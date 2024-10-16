@@ -495,7 +495,7 @@ section,
 }
 
 
-.hero {
+.rodolfo {
   width: 100%;
   min-height: 100vh;
   position: relative;
@@ -505,7 +505,7 @@ section,
   justify-content: center;
 }
 
-.hero img {
+.rodolfo img {
   position: absolute;
   inset: 0;
   display: block;
@@ -515,7 +515,7 @@ section,
   z-index: 1;
 }
 
-.hero:before {
+.rodolfo:before {
   content: "";
   background: color-mix(in srgb, var(--background-color), transparent 70%);
   position: absolute;
@@ -523,32 +523,32 @@ section,
   z-index: 2;
 }
 
-.hero .container {
+.rodolfo .container {
   position: relative;
   z-index: 3;
 }
 
-.hero h2 {
+.rodolfo h2 {
   margin: 0;
   font-size: 64px;
   font-weight: 700;
 }
 
-.hero p {
+.rodolfo p {
   margin: 5px 0 0 0;
   font-size: 26px;
 }
 
-.hero p span {
+.rodolfo p span {
   letter-spacing: 1px;
   border-bottom: 2px solid var(--accent-color);
 }
 
-.hero .social-links {
+.rodolfo .social-links {
   margin-top: 25px;
 }
 
-.hero .social-links a {
+.rodolfo .social-links a {
   font-size: 24px;
   display: inline-block;
   color: color-mix(in srgb, var(--default-color), transparent 50%);
@@ -557,16 +557,16 @@ section,
   transition: 0.3s;
 }
 
-.hero .social-links a:hover {
+.rodolfo .social-links a:hover {
   color: var(--accent-color);
 }
 
 @media (max-width: 768px) {
-  .hero h2 {
+  .rodolfo h2 {
     font-size: 32px;
   }
 
-  .hero p {
+  .rodolfo p {
     font-size: 20px;
   }
 }
